@@ -1,0 +1,26 @@
+/* Jeux Mario */
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(lightblue, white);
+    overflow: hidden;
+    position: relative;
+}
+
+#sol{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #4c4c;
+}
+
+#perso{
+    position: absolute;
+    bottom: 60px;
+    width: 50px;
+    height: 50px;
+    background: url('./img/image.png')center/contain no-repeat;
+    transition: left 0.2s linear bottom;
+}
